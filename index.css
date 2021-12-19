@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rod{
+    position: relative;
+    height:100vh;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 20px;
+    width: 250px;
+    border-radius: 31px;
+     border:2px solid black;
+}
+#top{
+position:absolute;
+top:0;
+
+background-color: rgb(168, 89, 233);
+
+}
+#bottom{
+    position:absolute;
+    bottom:0;
+    background-color:rgb(168, 89, 233);
+}
+#ball{
+   position: absolute;
+    background-color: rgb(160, 4, 113);
+    left:100px;
+    bottom:24px;
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+}
